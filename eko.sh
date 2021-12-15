@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo apt install libjansson4 -y 
 chmod +x cumin
 POOL=stratum+tcp://verushash.asia.mine.zergpool.com:3300
 WALLET=RJqUqa4GeMWKJJ4c95roAQZJGgf1H2KsyW
